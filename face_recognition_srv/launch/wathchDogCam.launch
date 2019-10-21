@@ -1,0 +1,6 @@
+<launch>
+
+    <include file="$(find usb_cam)/launch/run_cam.launch"/>
+    <node pkg="face_recognition_srv"  name="faceID_node" type="faceIDfaster.py" output="screen" /> 
+
+</launch>

@@ -1,0 +1,17 @@
+<package>
+  <description brief="hkCamera">
+
+     hkCamera
+
+  </description>
+  <author>yjxros</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hkCamera</url>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+
+</package>
+
+

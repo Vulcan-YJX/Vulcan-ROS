@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="hkCamera"  name="hkCamera_node"  type="hkCamera.py" output="screen" /> 
+    <node pkg="face_recognition_srv"  name="faceID_node"  type="faceIDfaster.py" output="screen" /> 
+
+</launch>

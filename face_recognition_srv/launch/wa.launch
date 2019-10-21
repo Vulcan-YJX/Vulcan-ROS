@@ -1,0 +1,6 @@
+<launch>
+
+    <include file="$(find usb_cam)/launch/run_cam.launch"/>
+    <node pkg="wx_topic"  name="wxtalker_node"  type="wxTopic.py" output="screen" /> 
+
+</launch>
